@@ -22,6 +22,6 @@ for i in range(len(origin_file_content)):
     })
 
 json_file=open(os.path.join(__file__.replace("csv2json.py",""),"..","data","dict.json"),"w",encoding="utf-8")
-json_content=json.dumps({"dict":dict_array},indent=2)
+json_content=json.dumps({"dict":dict_array},indent=2,ensure_ascii=False)
 json_file.write(json_content)
 json_file.close()

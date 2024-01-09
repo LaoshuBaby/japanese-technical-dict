@@ -1,0 +1,841 @@
+{
+  "dict": [
+    {
+      "id": "",
+      "string": {
+        "en": "Refactor",
+        "ja": "リファクタリング / 改善",
+        "zh": "代码重构"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Feature",
+        "ja": "フィーチャー / 特徴",
+        "zh": "功能特性"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Document",
+        "ja": "ドキュメント / 文書",
+        "zh": "文档"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Breaking Changes",
+        "ja": "破壊的変更 / 変更",
+        "zh": "破坏性更改"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Code Review",
+        "ja": "コードレビュー / コード検証",
+        "zh": "代码审查"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Commit",
+        "ja": "コミット / 提出",
+        "zh": "提交（版本）"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Version Control",
+        "ja": "バージョンコントロール / 版本管理",
+        "zh": "版本控制"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Agile",
+        "ja": "アジャイル / 敏捷",
+        "zh": "敏捷开发"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Frontend",
+        "ja": "フロントエンド / 前端",
+        "zh": "前端"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Technical Stack",
+        "ja": "テクニカルスタック / 技術スタック",
+        "zh": "技术栈"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Render",
+        "ja": "レンダー / 描画",
+        "zh": "渲染"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Function",
+        "ja": "ファンクション / 機能",
+        "zh": "功能"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Functional",
+        "ja": "ファンクショナル / 機能的",
+        "zh": "功能性的"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "AI (Artificial Intelligence)",
+        "ja": "AI(アーアイ) / 人工知能",
+        "zh": "人工智能"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Class",
+        "ja": "クラス / クラス",
+        "zh": "类"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Dimension",
+        "ja": "ディメンション / 寸法",
+        "zh": "维度"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Object",
+        "ja": "オブジェクト / 物体",
+        "zh": "对象"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "License",
+        "ja": "ライセンス / 許可",
+        "zh": "许可证"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Element",
+        "ja": "エレメント / 元素",
+        "zh": "元素"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Parameter",
+        "ja": "パラメータ / パラメーター",
+        "zh": "参数"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Argument",
+        "ja": "アーギュメント / 引数",
+        "zh": "参数"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Request (HTTP)",
+        "ja": "リクエスト / 要求",
+        "zh": "请求（HTTP）"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Get",
+        "ja": "ゲット / 取得",
+        "zh": "获取"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Post",
+        "ja": "ポスト / 投稿",
+        "zh": "发布"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Put",
+        "ja": "プット / 置く",
+        "zh": "更新（覆盖）"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Delete",
+        "ja": "デリート / 削除",
+        "zh": "删除"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Storage",
+        "ja": "ストレージ / 貯蔵",
+        "zh": "存储"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Drive",
+        "ja": "ドライブ / 駆動",
+        "zh": "驱动器"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Harddisk",
+        "ja": "ハードディスク / ハードディスク",
+        "zh": "硬盘"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Virtual Machine",
+        "ja": "バーチャルマシン / 仮想マシン",
+        "zh": "虚拟机"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Programme",
+        "ja": "プログラム / 番組",
+        "zh": "程序"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Compiler",
+        "ja": "コンパイラ / 編集者",
+        "zh": "编译器"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Interpreter",
+        "ja": "インタプリタ / 通訳者",
+        "zh": "解释器"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Vision (Graphic)",
+        "ja": "ビジョン / 視覚",
+        "zh": "视觉（图形）"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Constructor",
+        "ja": "コンストラクター / 建設者",
+        "zh": "构造器"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Destructor",
+        "ja": "デストラクター / 破壊者",
+        "zh": "析构器"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Operation System",
+        "ja": "オペレーションシステム / 操作システム",
+        "zh": "操作系统"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Data Structure",
+        "ja": "データ構造",
+        "zh": "数据结构"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Tree",
+        "ja": "木構造",
+        "zh": "树（数据结构里的）"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Linked List",
+        "ja": "連結リスト",
+        "zh": "链表"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Traversal",
+        "ja": "トラバーサル",
+        "zh": "遍历"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Graph",
+        "ja": "グラフ",
+        "zh": "图"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Array",
+        "ja": "配列",
+        "zh": "数组"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Loop",
+        "ja": "ループ",
+        "zh": "循环"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Binary Tree",
+        "ja": "二分木",
+        "zh": "二叉树"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Display",
+        "ja": "ディスプレイ",
+        "zh": "显示"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Inclusion",
+        "ja": "インクルージョン",
+        "zh": "包含"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Vector",
+        "ja": "ベクター",
+        "zh": "向量"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "AVL Tree",
+        "ja": "AVL木",
+        "zh": "平衡二叉树"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Tile",
+        "ja": "タイル",
+        "zh": "瓦"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Matrix",
+        "ja": "行列",
+        "zh": "矩阵"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Red-Black Tree",
+        "ja": "赤黒木",
+        "zh": "红黑树"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Cloud",
+        "ja": "クラウド",
+        "zh": "云（云计算的云"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Sorting",
+        "ja": "ソーティング",
+        "zh": "排序"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Node",
+        "ja": "ノード",
+        "zh": "结点"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Algorithm",
+        "ja": "アルゴリズム",
+        "zh": "算法"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Edge",
+        "ja": "エッジ",
+        "zh": "边缘"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Discrete Mathematics",
+        "ja": "離散数学",
+        "zh": "离散数学"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Device",
+        "ja": "デバイス",
+        "zh": "设备"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Queue",
+        "ja": "キュー",
+        "zh": "队列"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Learning Rate (AI)",
+        "ja": "学習率 (AI)",
+        "zh": "学习率（AI）"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Driver",
+        "ja": "ドライバー",
+        "zh": "驱动程序"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Find Peak/Valley",
+        "ja": "ピーク/バレーを見つける",
+        "zh": "寻找顶点/谷底"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Push/Pop",
+        "ja": "プッシュ/ポップ",
+        "zh": "入栈/出栈"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Static/Dynamic",
+        "ja": "静的/動的",
+        "zh": "静态/动态"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Registry Manager",
+        "ja": "レジストリマネージャー",
+        "zh": "注册表管理器"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Module",
+        "ja": "モジュール",
+        "zh": "模块"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Library",
+        "ja": "ライブラリ",
+        "zh": "库"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Package",
+        "ja": "パッケージ",
+        "zh": "包"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Toolchain",
+        "ja": "ツールチェーン",
+        "zh": "工具链"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Workflow",
+        "ja": "ワークフロー",
+        "zh": "工作流"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Type",
+        "ja": "タイプ",
+        "zh": "类型"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Variable/Constant",
+        "ja": "変数/定数",
+        "zh": "变量/常量"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Grid",
+        "ja": "グリッド",
+        "zh": "网格"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Stack Top",
+        "ja": "スタックトップ",
+        "zh": "栈顶"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Stack Bottom",
+        "ja": "スタックボトム",
+        "zh": "栈底"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "List",
+        "ja": "リスト",
+        "zh": "列表"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Debug",
+        "ja": "デバッグ",
+        "zh": "调试"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Raster",
+        "ja": "ラスター",
+        "zh": "栅格"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Input",
+        "ja": "インプット",
+        "zh": "输入"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Output",
+        "ja": "アウトプット",
+        "zh": "输出"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Internet",
+        "ja": "インターネット",
+        "zh": "互联网"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Open",
+        "ja": "オープン",
+        "zh": "开放"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Source",
+        "ja": "ソース",
+        "zh": "来源"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Code",
+        "ja": "コード",
+        "zh": "代码"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Center",
+        "ja": "センター",
+        "zh": "中心"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Service",
+        "ja": "サービス",
+        "zh": "服务"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Switch",
+        "ja": "スイッチ",
+        "zh": "开关"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Freeze",
+        "ja": "フリーズ",
+        "zh": "冻结"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Online",
+        "ja": "オンライン",
+        "zh": "在线"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Game",
+        "ja": "ゲーム",
+        "zh": "游戏"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Before",
+        "ja": "ビフォー",
+        "zh": "之前"
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "After",
+        "ja": "アフター",
+        "zh": "之后"
+      },
+      "tags": []
+    }
+  ]
+}
