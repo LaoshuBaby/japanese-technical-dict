@@ -12,6 +12,42 @@
     {
       "id": "",
       "string": {
+        "en": "Terminal",
+        "ja": "ターミナル",
+        "zh": ""
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Remote",
+        "ja": "",
+        "zh": ""
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Upstream",
+        "ja": "",
+        "zh": ""
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Original",
+        "ja": "",
+        "zh": ""
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
         "en": "Feature",
         "ja": "フィーチャー / 特徴",
         "zh": "功能特性"
