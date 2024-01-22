@@ -1,3 +1,8 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+
+% \documentclass{article}
+
 \documentclass[10pt]{article} % 设置默认字号为10pt
 
 \usepackage[utf8]{inputenc} % 输入编码
@@ -5,6 +10,10 @@
 \usepackage{geometry} % 页面布局
 \usepackage{multicol} % 多栏布局
 \usepackage{booktabs} % 表格横线
+
+\usepackage{xeCJK}
+\setCJKmainfont{SimSun} % 将“SimSun”替换成您电脑上的中文字体
+
 
 % 设定页面大小，你可以根据自己的需要调整
 \geometry{
@@ -23,11 +32,9 @@
 \begin{multicols}{2} % 开始双栏
 
 % 插入一个表格来实现每一行有横线的效果
-\begin{tabular}{@{}p{\dimexpr0.5\linewidth-2\tabcolsep}@{} p{\dimexpr0.5\linewidth-2\tabcolsep}@{}}
+\begin{tabular}{@{}p{\dimexpr0.5\linewidth-2\tabcolsep}@{}p{\dimexpr0.5\linewidth-2\tabcolsep}@{} p{\dimexpr0.5\linewidth-2\tabcolsep}@{}}
 \toprule % 表格顶部的横线
-Word1 & 单词1 \\ \midrule
-Word2 & 单词2 \\ \midrule
-Word3 & 单词3 \\ \midrule
+Word & 单词 & タンゴ \\ \midrule
 % 添加更多的词汇对... 
 \bottomrule % 表格底部的横线
 \end{tabular}
