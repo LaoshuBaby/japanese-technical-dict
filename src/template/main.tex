@@ -12,6 +12,9 @@
 \usepackage{booktabs} % 表格横线
 
 \usepackage{xeCJK}
+
+\usepackage{longtable} % 引入 longtable 宏包
+\usepackage{booktabs} % 用于更漂亮的表格线
 \setCJKmainfont{SimSun} % 将“SimSun”替换成您电脑上的中文字体
 
 
@@ -29,18 +32,31 @@
 \setlength{\columnsep}{0pt}
 
 \begin{document}
-\begin{multicols}{2} % 开始双栏
+% \begin{multicols}{2} % 开始双栏
 
-% 插入一个表格来实现每一行有横线的效果
-\begin{tabular}{@{}p{\dimexpr0.5\linewidth-2\tabcolsep}@{}p{\dimexpr0.5\linewidth-2\tabcolsep}@{} p{\dimexpr0.5\linewidth-2\tabcolsep}@{}}
-\toprule % 表格顶部的横线
-Word & 单词 & タンゴ \\ \midrule
-% 添加更多的词汇对... 
-\bottomrule % 表格底部的横线
-\end{tabular}
+    \begin{longtable}{@{}p{\dimexpr0.33\linewidth-2\tabcolsep}%
+                       p{\dimexpr0.33\linewidth-2\tabcolsep}%
+                       p{\dimexpr0.33\linewidth-2\tabcolsep}@{}}
+    
+    \toprule % 表格顶部的横线
+    EN & ZH & JA \\ \midrule
+    \endhead % 表格头部定义结束
+    
+    \midrule
+    \endfoot % 表格脚注定义结束
+    
+    \bottomrule
+    \endlastfoot % 表格最后一页的脚注定义结束
+    
+    % 词汇对照的具体内容将位于此
+    % ...
+    Word & 单词 & タンゴ \\ \midrule
+    
+    \end{longtable}
+    
 
 % 你可以复制上面的表格块添加更多的词汇
 
-\end{multicols}
+% \end{multicols}
 \pagenumbering{arabic} % 页码使用阿拉伯数字
 \end{document}
