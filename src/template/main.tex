@@ -1,1 +1,39 @@
-\document
+\documentclass[10pt]{article} % 设置默认字号为10pt
+
+\usepackage[utf8]{inputenc} % 输入编码
+\usepackage[T1]{fontenc} % 字体编码
+\usepackage{geometry} % 页面布局
+\usepackage{multicol} % 多栏布局
+\usepackage{booktabs} % 表格横线
+
+% 设定页面大小，你可以根据自己的需要调整
+\geometry{
+  paperwidth=7cm,
+  paperheight=10cm, % 这里是打开后的尺寸，所以是5cm的两倍
+  left=0.5cm,
+  right=0.5cm,
+  top=0.5cm,
+  bottom=1cm
+}
+
+% 设置multicol环境的分隔线没有距离
+\setlength{\columnsep}{0pt}
+
+\begin{document}
+\begin{multicols}{2} % 开始双栏
+
+% 插入一个表格来实现每一行有横线的效果
+\begin{tabular}{@{}p{\dimexpr0.5\linewidth-2\tabcolsep}@{} p{\dimexpr0.5\linewidth-2\tabcolsep}@{}}
+\toprule % 表格顶部的横线
+Word1 & 单词1 \\ \midrule
+Word2 & 单词2 \\ \midrule
+Word3 & 单词3 \\ \midrule
+% 添加更多的词汇对... 
+\bottomrule % 表格底部的横线
+\end{tabular}
+
+% 你可以复制上面的表格块添加更多的词汇
+
+\end{multicols}
+\pagenumbering{arabic} % 页码使用阿拉伯数字
+\end{document}
