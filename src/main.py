@@ -9,7 +9,7 @@ def init():
         os.path.join(
             __file__.replace("main.py", ""), "..", "data", "dict.json"
         ),
-        "w",
+        "r",
         encoding="utf-8",
     )
     json_content = json.loads(json_file.read())
@@ -35,7 +35,7 @@ def gen_id():
     pass
 
 def gen_latex(json_content:dict)-> None:
-    latex_file_path=os.path.join(os.path.realpath(__file__),"template","main.tex")
+    latex_file_path=os.path.join(os.path.dirname(__file__),"template","main.tex")
     latex_file=open(latex_file_path,"r",encoding="utf-8")
     latex_file_content=latex_file.read()
     latex_file.close()
@@ -44,13 +44,13 @@ def gen_latex(json_content:dict)-> None:
     def gen_insert_list(json_content:dict)->List[str]:
         dict_entries=json_content["dict"]
         insert_list=[]
-        template="{{en}} & {{zh}} & {{ja}} \\\\ \midrule"
+        template="{en} & {zh} & {ja} \\\\ \midrule"
         for entry in dict_entries:
             insert_list.append(template.format(**entry["string"]))
         return insert_list
 
     latex_file=open(latex_file_path,"w",encoding="utf-8")
-    latex_file_content=latex_file.write(latex_file_content.replace(symbol,symbol+"".join([i+" \n" for i in gen_insert_list()])))
+    latex_file_content=latex_file.write(latex_file_content.replace(symbol,symbol+"".join([i+" \n" for i in gen_insert_list(json_content)])))
     latex_file.close()
     return None
 
@@ -58,6 +58,8 @@ def manage_word():
     pass
 
 def build_pdf()->None:
+    os.chdir("template")
+    os.system("xelatex main")
     return None
 
 def main()->None:
