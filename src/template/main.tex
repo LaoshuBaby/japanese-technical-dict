@@ -3,7 +3,7 @@
 
 % \documentclass{article}
 
-\documentclass[10pt]{article} % 设置默认字号为10pt
+\documentclass[4pt]{article} % 设置默认字号为10pt
 
 \usepackage[utf8]{inputenc} % 输入编码
 \usepackage[T1]{fontenc} % 字体编码
@@ -20,12 +20,12 @@
 
 % 设定页面大小，你可以根据自己的需要调整
 \geometry{
-  paperwidth=7cm,
-  paperheight=10cm, % 这里是打开后的尺寸，所以是5cm的两倍
-  left=0.5cm,
-  right=0.5cm,
-  top=0.5cm,
-  bottom=1cm
+  paperwidth=74mm,
+  paperheight=105mm,
+  left=5mm,
+  right=5mm,
+  top=5mm,
+  bottom=12mm
 }
 
 % 设置multicol环境的分隔线没有距离
@@ -34,25 +34,29 @@
 \begin{document}
 % \begin{multicols}{2} % 开始双栏
 
-    \begin{longtable}{@{}p{\dimexpr0.33\linewidth-2\tabcolsep}%
-                       p{\dimexpr0.33\linewidth-2\tabcolsep}%
-                       p{\dimexpr0.33\linewidth-2\tabcolsep}@{}}
-    
-    \toprule % 表格顶部的横线
-    EN & ZH & JA \\ \midrule
-    \endhead % 表格头部定义结束
-    
-    \midrule
-    \endfoot % 表格脚注定义结束
-    
-    \bottomrule
-    \endlastfoot % 表格最后一页的脚注定义结束
-    
-    % 词汇对照的具体内容将位于此
-    % ...
-    Word & 单词 & タンゴ \\ \midrule
-    
-    \end{longtable}
+\begin{longtable}{@{}p{\dimexpr0.3\linewidth-2\tabcolsep}%
+	p{\dimexpr0.25\linewidth-2\tabcolsep}%
+	p{\dimexpr0.5\linewidth-2\tabcolsep}@{}}
+	    
+	\toprule % 表格顶部的横线
+	\normalsize
+	EN   & ZH     & JA        \\ \midrule
+	    
+	\endhead % 表格头部定义结束
+	    
+	\midrule
+	\endfoot % 表格脚注定义结束
+	    
+	\bottomrule
+	\endlastfoot % 表格最后一页的脚注定义结束
+	    
+	% 词汇对照的具体内容将位于此
+	% ...
+	\fontsize{6.5pt}{5pt}
+	      
+	Word & 单词 & タンゴ \\ \midrule
+	
+\end{longtable}
     
 
 % 你可以复制上面的表格块添加更多的词汇
