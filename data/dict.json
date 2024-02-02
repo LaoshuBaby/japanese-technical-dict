@@ -3,6 +3,33 @@
     {
       "id": "",
       "string": {
+        "en": "Panel",
+        "ja": "",
+        "zh": ""
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Dashboard",
+        "ja": "",
+        "zh": ""
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Control",
+        "ja": "",
+        "zh": ""
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
         "en": "Refactor",
         "ja": "リファクタリング / 改善",
         "zh": "代码重构"
