@@ -3,6 +3,51 @@
     {
       "id": "",
       "string": {
+        "en": "Mode",
+        "ja": "モード",
+        "zh": ""
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Demo",
+        "ja": "デモ",
+        "zh": ""
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Sample",
+        "ja": "サンプル",
+        "zh": ""
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Photo",
+        "ja": "フォト",
+        "zh": ""
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Private",
+        "ja": "プライベート",
+        "zh": ""
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
         "en": "Panel",
         "ja": "",
         "zh": ""
