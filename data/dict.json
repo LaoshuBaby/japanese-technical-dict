@@ -3,6 +3,24 @@
     {
       "id": "",
       "string": {
+        "en": "Domain",
+        "ja": "ドメイン",
+        "zh": ""
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Host",
+        "ja": "ホスト",
+        "zh": ""
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
         "en": "Mode",
         "ja": "モード",
         "zh": ""
