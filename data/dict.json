@@ -3,6 +3,15 @@
     {
       "id": "",
       "string": {
+        "en": "Profile",
+        "ja": "プロフィール",
+        "zh": ""
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
         "en": "Domain",
         "ja": "ドメイン",
         "zh": ""
