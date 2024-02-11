@@ -3,6 +3,42 @@
     {
       "id": "",
       "string": {
+        "en": "APP ",
+        "ja": "アプリ",
+        "zh": ""
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Login",
+        "ja": "ログイン",
+        "zh": ""
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Retry",
+        "ja": "リトライ",
+        "zh": ""
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Cancel",
+        "ja": "キャンセル",
+        "zh": ""
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
         "en": "Profile",
         "ja": "プロフィール",
         "zh": ""
