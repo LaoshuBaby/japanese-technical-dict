@@ -3,7 +3,34 @@
     {
       "id": "",
       "string": {
-        "en": "APP ",
+        "en": "Server",
+        "ja": "サーバ　／　サーバー",
+        "zh": ""
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Computer",
+        "ja": "コンピョータ",
+        "zh": ""
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Virus",
+        "ja": "ウイルス",
+        "zh": ""
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "APP",
         "ja": "アプリ",
         "zh": ""
       },
