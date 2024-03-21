@@ -3,6 +3,15 @@
     {
       "id": "",
       "string": {
+        "en": "Download",
+        "ja": "ダウンロード",
+        "zh": ""
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
         "en": "Server",
         "ja": "サーバ　／　サーバー",
         "zh": ""
