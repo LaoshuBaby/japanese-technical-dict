@@ -3,6 +3,24 @@
     {
       "id": "",
       "string": {
+        "en": "Sign Up",
+        "ja": "サインアップ",
+        "zh": ""
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Sign In",
+        "ja": "サインイン",
+        "zh": ""
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
         "en": "Download",
         "ja": "ダウンロード",
         "zh": ""
