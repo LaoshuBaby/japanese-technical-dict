@@ -43,12 +43,20 @@
         "zh": ""
       },
       "tags": []
+    },    {
+      "id": "",
+      "string": {
+        "en": "maintenance",
+        "ja": "メンテナンス",
+        "zh": ""
+      },
+      "tags": []
     },
     {
       "id": "",
       "string": {
         "en": "Computer",
-        "ja": "コンピョータ",
+        "ja": "コンピョータ / コンピュータ",
         "zh": ""
       },
       "tags": []
