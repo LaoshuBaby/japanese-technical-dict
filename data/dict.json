@@ -3,6 +3,15 @@
     {
       "id": "",
       "string": {
+        "en": "Editor",
+        "ja": "エディタ",
+        "zh": ""
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
         "en": "Sign Up",
         "ja": "サインアップ",
         "zh": ""
