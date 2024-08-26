@@ -12,6 +12,24 @@
     {
       "id": "",
       "string": {
+        "en": "Site",
+        "ja": "サイト",
+        "zh": ""
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
+        "en": "Click",
+        "ja": "クリック",
+        "zh": ""
+      },
+      "tags": []
+    },
+    {
+      "id": "",
+      "string": {
         "en": "Sign Up",
         "ja": "サインアップ",
         "zh": ""
