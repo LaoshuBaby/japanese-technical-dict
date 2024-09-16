@@ -1,5 +1,32 @@
 {
   "dict": [
+        {
+      "id": "",
+      "string": {
+        "en": "Project",
+        "ja": "プロジェクト",
+        "zh": ""
+      },
+      "tags": []
+    },
+        {
+      "id": "",
+      "string": {
+        "en": "Dynamic",
+        "ja": "ダイナミック",
+        "zh": ""
+      },
+      "tags": []
+    },
+        {
+      "id": "",
+      "string": {
+        "en": "Community",
+        "ja": "コミュニティ",
+        "zh": ""
+      },
+      "tags": []
+    },
     {
       "id": "",
       "string": {
