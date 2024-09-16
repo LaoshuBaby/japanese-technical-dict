@@ -3,6 +3,7 @@ import json
 import hashlib
 from typing import Dict, List
 
+MANUAL_COMPLIE=False
 
 def init():
     json_file = open(
@@ -71,4 +72,7 @@ if __name__ == "__main__":
     # # gen_id then overwrite disk file
     # gen_id()
     gen_latex(json_content)
-    build_pdf()
+    if MANUAL_COMPLIE==False:
+        build_pdf()
+    else:
+        pass
