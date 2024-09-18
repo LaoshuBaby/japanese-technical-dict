@@ -1,6 +1,6 @@
 {
   "dict": [
-        {
+    {
       "id": "",
       "string": {
         "en": "Project",
@@ -9,7 +9,7 @@
       },
       "tags": []
     },
-        {
+    {
       "id": "",
       "string": {
         "en": "Dynamic",
@@ -18,7 +18,7 @@
       },
       "tags": []
     },
-        {
+    {
       "id": "",
       "string": {
         "en": "Community",
@@ -71,7 +71,8 @@
         "zh": ""
       },
       "tags": []
-    },    {
+    },
+    {
       "id": "",
       "string": {
         "en": "Upload",
@@ -97,7 +98,8 @@
         "zh": ""
       },
       "tags": []
-    },    {
+    },
+    {
       "id": "",
       "string": {
         "en": "maintenance",
@@ -645,7 +647,7 @@
         "zh": "树"
       },
       "tags": ["data_structure"],
-      "alternative_kanji":["木","木構造"],
+      "alternative_kanji": ["木", "木構造"]
     },
     {
       "id": "",
@@ -1096,7 +1098,7 @@
         "zh": "自由/免费"
       },
       "tags": [],
-          "alternative_kanji":["自由","無料"],
+      "alternative_kanji": ["自由", "無料"]
     },
     {
       "id": "",
