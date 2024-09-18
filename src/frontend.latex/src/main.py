@@ -40,17 +40,28 @@ def gen_id():
 
 def gen_latex(json_content: dict) -> None:
     latex_file_path = os.path.join(
-        os.path.dirname(__file__), "..","template", "main.tex"
+        os.path.dirname(__file__), "..", "template", "main.tex"
     )
     latex_file = open(latex_file_path, "r", encoding="utf-8")
     latex_file_content = latex_file.read()
     latex_file.close()
+
+    with open("config.json", "r", encoding="utf-8") as f:
+        config = json.loads(f.read())
+
+    available_languages = config["JTD"].get("available_language")
+
     symbol = "Word & 单词 & タンゴ \\\\ \midrule\n"
 
     def gen_insert_list(json_content: dict) -> List[str]:
         dict_entries = json_content["dict"]
         insert_list = []
-        template = "{en} & {zh} & {ja} \\\\ \midrule"
+        template_raw = "{{languages}} \\\\ \midrule"
+        template = template_raw.replace(
+            "{{languages}}",
+            " & ".join(["{" + i + "}" for i in available_languages]),
+        )
+        # template = "{en} & {zh} & {ja} \\\\ \midrule"
         for entry in dict_entries:
             insert_list.append(template.format(**entry["string"]))
         return insert_list
