@@ -1,5 +1,32 @@
 {
   "dict": [
+        {
+      "id": "",
+      "string": {
+        "en": "Update",
+        "ja": "アップデート",
+        "zh": ""
+      },
+      "tags": []
+    },
+        {
+      "id": "",
+      "string": {
+        "en": "Backup",
+        "ja": "バックアップ",
+        "zh": ""
+      },
+      "tags": []
+    },
+        {
+      "id": "",
+      "string": {
+        "en": "Version",
+        "ja": "バージョン",
+        "zh": ""
+      },
+      "tags": []
+    },
     {
       "id": "",
       "string": {
