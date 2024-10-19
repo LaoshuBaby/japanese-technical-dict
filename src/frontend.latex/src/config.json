@@ -1,1 +1,9 @@
-{"JTD": {"available_language": ["en", "zh", "ja"]}}
+{
+    "JTD": {
+        "available_language": [
+            "en",
+            "zh",
+            "ja"
+        ]
+    }
+}
